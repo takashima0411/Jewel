@@ -7,7 +7,7 @@ jewel.dom = (function(){
   }
 
   function addClass(el, clsName) {
-    if(!hasClass(el, className)) {
+    if(!hasClass(el, clsName)) {
       el.className += " " + clsName;
     }
   }
